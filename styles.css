@@ -2,10 +2,11 @@
     margin: 0;
     padding: 0;
     border: 0;
-    outline: 2px dotted green;
+    /* outline: 2px dotted green; */
     font-size: 100%;
     vertical-align: baseline;
     background: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
@@ -40,4 +41,16 @@ body {
 
 .top {
     background-color: #1F2937;
+}
+
+.top h1 {
+    font-style: extra-bold;
+    color: #F9FAF8;
+    font-size: 48px;
+}
+
+.top p {
+    font-style: extra-bold;
+    color: #e5e7eb;
+    font-size: 18px;
 }
