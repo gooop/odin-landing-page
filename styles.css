@@ -87,3 +87,40 @@ body {
     padding: 5px 0;
     border-radius: 6px;
 }
+
+.middle {
+    /* outline: 2px dotted green; */
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle h2 {
+    flex: 1 0 50%;
+    justify-self: center;
+    text-align: center;
+    margin: 20px;
+    font-size: 125%;
+    color:#1F2937;
+}
+
+.middle ul {
+    display: flex;
+    justify-content: center;
+}
+
+.middle li {
+    display: inline-block;
+    text-align: center;
+    align-self: center;
+    max-width: 200px;
+    margin: 25px;
+}
+
+.middle li img {
+    border: 4px solid #3882f6;
+    border-radius: 13px;
+    max-width: 150px;
+    max-height: 150px;
+}
